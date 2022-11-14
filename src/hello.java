@@ -7,7 +7,10 @@ public class hello {
         System.out.println(year + "\t was my best year");
     }
     void murasta(){
-        System.out.println(muras +"Hello world!");
+        System.out.println(muras +"\t Hello world!");
+        System.out.println(muras + " \t studied in kikima secondary school");
+        System.out.println(5 + 4);
+
     }
 
 }
