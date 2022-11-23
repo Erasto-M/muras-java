@@ -17,6 +17,7 @@ public class Main {
         marks mur = new marks();
         Area mun = new Area();
         area mura = new area();
+        interest mus = new interest();
         x.name = "munyao";
         x.year = 2022;
         x.muras = "munyao";
@@ -25,6 +26,7 @@ public class Main {
         mur.marks();
         mun.Area();
         mura.area();
+        mus.interest();
     }
 }
 
@@ -96,5 +98,17 @@ class area{
         int y = height.nextInt();
         area = (x/2 * y);
         System.out.println( "The area of the triangle is " + area);
+    }
+}
+class interest{
+    public void interest(){
+        int x,y;
+        int p= 25000;
+        double  r = 0.10;
+        int t = 2;
+        int simple,amount1;
+        simple = (int) (p*t*r);
+        amount1 = p + simple;
+        System.out.println("the amount is " + amount1);
     }
 }
